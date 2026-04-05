@@ -11,6 +11,7 @@ export const navItems = [
 
 // 🖼️ IMAGES
 export const sacredImages = {
+  bangaru:"https://res.cloudinary.com/dvd7o5nph/image/upload/q_auto/f_auto/v1775311419/bangaru_in2ou0.webp",
   hero: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939324/bangaru_rok3vv.jpg",
   portrait: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939314/amma_young_doqfqv.jpg",
   child: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939227/amma_child_g8n2n1.jpg",
@@ -18,6 +19,8 @@ export const sacredImages = {
   pooja: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939123/om3_f76xrf.jpg",
   celebration: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939068/om4_pr5ffn.jpg",
   procession: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939095/om5_ppv6nl.jpg",
+  padmaShri:"https://res.cloudinary.com/dvd7o5nph/image/upload/q_auto/f_auto/v1775311427/award_lpmgfo.jpg",
+  nobel:"https://res.cloudinary.com/dvd7o5nph/image/upload/q_auto/f_auto/v1775318429/WhatsApp_Image_2026-04-04_at_1.40.58_PM_1_rrx1hi.jpg"
 };
 
 // 🌟 HERO

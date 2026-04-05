@@ -83,41 +83,43 @@
 //     </div>
 //   );
 // }
-// app/page.tsx
+
 import About from "@/component/about";
+import Awards from "@/component/awards";
 import PremiumHero from "@/component/hero";
-import Impact from "@/component/impact";
+import Institutions from "@/component/institutions";
+import LifeJourney from "@/component/life-journey";
 import Teachings from "@/component/teaching";
-import  Programs from "@/component/programs";
+import Uniqueness from "@/component/uniqueness";
+import Miracles from "@/component/miracles";
+
+function Divider() {
+  return (
+    <>
+      <div className="absolute w-[200px] h-[20px] bg-[#CFA95F]/20 blur-xl rounded-full" />
+      <div className="w-[70%] h-[1px] bg-gradient-to-r from-transparent via-[#CFA95F]/50 to-transparent" />
+    </>
+  );
+}
 
 export default function Home() {
   return (
     <main>
       <PremiumHero />
-        {/* Glow */}
-  <div className="absolute w-[200px] h-[20px] bg-[#CFA95F]/20 blur-xl rounded-full" />
-
-  {/* Line */}
-  <div className="w-[70%] h-[1px] bg-gradient-to-r from-transparent via-[#CFA95F]/50 to-transparent" />
+      <Divider />
       <About />
-        {/* Glow */}
-  <div className="absolute w-[200px] h-[20px] bg-[#CFA95F]/20 blur-xl rounded-full" />
-
-  {/* Line */}
-  <div className="w-[70%] h-[1px] bg-gradient-to-r from-transparent via-[#CFA95F]/50 to-transparent" />
+      <Divider />
+      <Miracles />
+      <Divider />
+      <LifeJourney />
+      <Divider />
+      <Uniqueness />
+      <Divider />
+      <Awards />
+      <Divider />
       <Teachings />
-        {/* Glow */}
-  <div className="absolute w-[200px] h-[20px] bg-[#CFA95F]/20 blur-xl rounded-full" />
-
-  {/* Line */}
-  <div className="w-[70%] h-[1px] bg-gradient-to-r from-transparent via-[#CFA95F]/50 to-transparent" />
-      <Impact />
-        {/* Glow */}
-  <div className="absolute w-[200px] h-[20px] bg-[#CFA95F]/20 blur-xl rounded-full" />
-
-  {/* Line */}
-  <div className="w-[70%] h-[1px] bg-gradient-to-r from-transparent via-[#CFA95F]/50 to-transparent" />
-      <Programs />
+      <Divider />
+      <Institutions />
     </main>
   );
 }
