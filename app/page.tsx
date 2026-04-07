@@ -92,6 +92,12 @@ import LifeJourney from "@/component/life-journey";
 import Teachings from "@/component/teaching";
 import Uniqueness from "@/component/uniqueness";
 import Miracles from "@/component/miracles";
+import Herosection from "@/component/herosection";
+import Herosectioncopy from "@/component/herosection copy";
+import Aboutsection from "@/component/aboutsection";
+import Aboutsectioncopy from "@/component/aboutsection copy";
+import LifeJourneysection from "@/component/life-journeysection";
+import LifeJourneysectioncopy from "@/component/life-journeysection copy";
 
 function Divider() {
   return (
@@ -107,19 +113,31 @@ export default function Home() {
     <main>
       <PremiumHero />
       <Divider />
+      <Herosection />
+      <Divider />
+      <Herosectioncopy />
+      <Divider />
       <About />
       <Divider />
-      <Miracles />
+      <Aboutsection />
       <Divider />
+      <Aboutsectioncopy />
+      <Divider />
+      {/* <Miracles />
+      <Divider /> */}
       <LifeJourney />
       <Divider />
+      <LifeJourneysection />
+      <Divider />
+      <LifeJourneysectioncopy />
+      {/* <Divider />
       <Uniqueness />
       <Divider />
       <Awards />
       <Divider />
       <Teachings />
       <Divider />
-      <Institutions />
+      <Institutions /> */}
     </main>
   );
 }
